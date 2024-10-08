@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Lumina 0.0.1.sln"
+    "dotnet.defaultSolution": "Lumina.sln"
 }
