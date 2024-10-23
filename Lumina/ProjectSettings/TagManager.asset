@@ -10,6 +10,8 @@ TagManager:
   - Fase3
   - Fase4
   - Fase5
+  - suporte
+  - dano
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - suporte
   - ground
   - 
   - 
