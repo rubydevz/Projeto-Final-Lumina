@@ -14,6 +14,7 @@ TagManager:
   - dano
   - Plat
   - Plataforma
+  - DANO
   layers:
   - Default
   - TransparentFX
