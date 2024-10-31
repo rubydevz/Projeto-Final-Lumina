@@ -12,6 +12,8 @@ TagManager:
   - Fase5
   - suporte
   - dano
+  - Plat
+  - Plataforma
   layers:
   - Default
   - TransparentFX
