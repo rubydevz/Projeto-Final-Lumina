@@ -85,6 +85,10 @@ public class Controller : MonoBehaviour
         if(other.CompareTag("Finish"))
         {
             PlayerPrefs.DeleteKey("HasSave");
+            SceneManager.LoadScene("Boss");
+        }
+        if(other.CompareTag("Fase2"))
+        {
             SceneManager.LoadScene("Fase2");
         }
         if(other.CompareTag("Fase3"))
@@ -98,6 +102,10 @@ public class Controller : MonoBehaviour
         if(other.CompareTag("Fase5"))
         {
             SceneManager.LoadScene("Fase5");
+        }
+        if(other.CompareTag("Fase1"))
+        {
+            SceneManager.LoadScene("Fase1");
         }
     }
 }
