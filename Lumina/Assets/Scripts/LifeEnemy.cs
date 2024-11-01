@@ -9,7 +9,7 @@ public class LifeEnemy : MonoBehaviour
  public int Life;
  public Image LifeBar;
  float CurrentLife; 
- private float MaxLifeBar = 90;  
+ private float MaxLifeBar = 90; 
 
  void Start()
  {
@@ -21,7 +21,6 @@ public class LifeEnemy : MonoBehaviour
   CurrentLife = Life;
   LifeBar.fillAmount = CurrentLife / MaxLifeBar;
  }
-
  void OnTriggerEnter2D(Collider2D coll)
  {
   if (coll.gameObject.tag == "DANO")
